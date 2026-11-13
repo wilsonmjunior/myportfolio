@@ -17,3 +17,13 @@
 }
 
 .sleep { --panel:#13292e; --glow:#347e81; }
+
+.kurio .visual img.kurio-preview {
+  width: 68%;
+  max-width: 360px;
+  top: 32px;
+  right: 8%;
+  border-width: 4px;
+  border-radius: 12px;
+  transform: rotate(5deg);
+}
