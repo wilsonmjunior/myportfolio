@@ -17,9 +17,3 @@
 }
 
 .sleep { --panel:#13292e; --glow:#347e81; }
-.screens { margin-top:14px; }
-.screens summary { cursor:pointer; color:var(--violet); font-size:.88rem; }
-.screens summary:focus-visible { outline:2px solid var(--violet); outline-offset:4px; }
-.screen-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:12px; }
-.screen-grid a { display:grid; gap:6px; font-size:.75rem; }
-.screen-grid img { width:100%; aspect-ratio:1179/2556; object-fit:cover; border-radius:10px; border:1px solid var(--line); }
