@@ -25,3 +25,15 @@
   border-radius: 12px;
   transform: rotate(5deg);
 }
+
+.dock nav a { position:relative; }
+.dock nav a::after {
+  content:""; position:absolute; inset:auto 0 -5px; height:2px; border-radius:2px;
+  background:var(--violet); transform:scaleX(0); transition:transform .22s ease;
+}
+.dock nav a:is(:hover,:focus-visible)::after { transform:scaleX(1); }
+
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  .card { transition:box-shadow .24s ease, border-color .24s ease; }
+  .card:hover { border-color:#d9baff60; box-shadow:inset 0 1px #fff2,0 16px 36px #05030b65; }
+}
